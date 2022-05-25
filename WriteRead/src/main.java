@@ -1,12 +1,20 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class main {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args) throws IOException {
+		 
 		
+			String y = "texto";
+			
+			try (BufferedWriter escrever = new BufferedWriter(new FileWriter("entrada.txt"))) {
+			//Variavel do tipo BufferedWriter
+					
+			escrever.write(y);
 
 			try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt")))  {
 				String line;
@@ -18,13 +26,13 @@ public class main {
 				
 				System.out.println(string);
 				
-				String teste = "Sabonete: cheiro=Azedo, cOR=Verde";
 				
-				Sabonete sabonete2 = new Sabonete(teste);
 				
-				System.out.println(sabonete2);
-				 
+			
 				
+			
+		
+			}
 		}
 	}
 }
