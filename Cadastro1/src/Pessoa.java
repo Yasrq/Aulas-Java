@@ -1,8 +1,8 @@
 
 public class Pessoa {
 	
-	private enum Sexo{
-		MASCULINO, FEMININO;
+	private enum SEXO{
+		MASCULINO, FEMININO,NEUTRE;
 	}
 	
 	private int idade;
