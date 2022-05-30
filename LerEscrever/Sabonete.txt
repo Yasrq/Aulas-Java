@@ -1,0 +1,3 @@
+Sabonete: cheiro=lavanda, cor=lilás
+Sabonete: cheiro=maracujá, cor=amarelo
+Sabonete: cheiro=blueberry, cor=azul
