@@ -1,0 +1,4 @@
+P 
+Pessoa [idade=6, endereco=Endereco [bairro=i, rua=i, numero=7], nome=i]
+Pessoa [idade=8, endereco=Endereco [bairro=ko, rua=o, numero=7], nome=k]
+Pessoa [idade=7, endereco=Endereco [bairro=k, rua=i, numero=7], nome=i]

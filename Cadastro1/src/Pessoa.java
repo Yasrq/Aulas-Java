@@ -1,16 +1,25 @@
 
 public class Pessoa {
 	
-	private enum SEXO{
-		MASCULINO, FEMININO,NEUTRE;
+	public Pessoa() {
+}
+	
+	private enum GENERO{
+		MASCULINO, FEMININO;
 	}
 	
+	private String nome;
 	private int idade;
 	private Endereco endereco;
-	private String nome;
+	private GENERO genero;
 	
 	
-	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 	public int getIdade() {
 		return idade;
 	}
@@ -23,32 +32,36 @@ public class Pessoa {
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
-	public String getNome() {
-		return nome;
+	public GENERO getGenero() {
+		return genero;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setGenero(GENERO genero) {
+		this.genero = genero;
 	}
+
+
 	@Override
 	public String toString() {
-		return "Pessoa [idade=" + idade + ", endereco=" + endereco + ", nome=" + nome + "]";
+		return "Pessoa [nome=" + nome + ", idade=" + idade + ", endereco=" + endereco + ", genero=" + genero + "]";
 	}
 	
 	
+	public Pessoa(String linha) {
+		
+		String[] arrayLinha = linha.split(",");
+
+		String[] arrayNome = arrayLinha[0].split("=");
+		this.nome = arrayNome[1].trim();
+		
+		String[] arrayIdade = arrayLinha[1].split("=");
+		this.idade = Integer.parseInt(arrayIdade[1].trim());
+		
+		String[] arrayGenero = arrayLinha[2].split("=");
+		this.genero = GENERO.valueOf(arrayGenero[1].trim());
+	}
+
 	
-	
-	
+		
+	}
 	
 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-}

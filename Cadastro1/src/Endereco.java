@@ -1,4 +1,3 @@
-
 public class Endereco {
 
  private String bairro;
@@ -29,8 +28,20 @@ public class Endereco {
 		return "Endereco [bairro=" + bairro + ", rua=" + rua + ", numero=" + numero + "]";
 	} 
 	 
- 
+	
+	String[] arrayLinha = linha.split(",");
+
+	String[] arrayBairro = arrayLinha[0].split("=");
+	this.bairro = arrayBairro[1].trim();
+	
+	String[] arrayRua = arrayLinha[1].split("=");
+	this.rua = arrayRua[1].trim();
+	
+	String[] arrayNumero = arrayLinha[2].split("=");
+	this.numero = Integer.parseInt(arrayNumero[1].trim());
+	
  	
 		
 	}
+}
 

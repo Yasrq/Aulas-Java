@@ -23,7 +23,7 @@ public class Aplicacao {
 				listaDesabonete.add(sabonete2);
 				listaDesabonete.add(sabonete3);
 				
-				
+				//gravar lista no txt//
 				try(BufferedWriter escrever = new BufferedWriter(new FileWriter("Sabonete.txt"))) {
 					for(sabonete sabonete : listaDesabonete)
 						escrever.write(sabonete.toString()+"\n");
