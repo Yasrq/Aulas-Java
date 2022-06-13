@@ -1,5 +1,6 @@
 
 public enum DiaDaSemana {
+//enum -> estabelecer valor//
 	DOMINGO(1), 
 	SEGUNDA(2),
 	TERCA(3),
