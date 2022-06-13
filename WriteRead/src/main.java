@@ -10,16 +10,17 @@ public class main {
 		 
 		
 			String y = "texto";
-			
+			//escrever//
 			try (BufferedWriter escrever = new BufferedWriter(new FileWriter("entrada.txt"))) {
 			//Variavel do tipo BufferedWriter
 					
 			escrever.write(y);
-
+         
+                        //ler - usuário//
 			try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt")))  {
 				String line;
 				String string = "";
-				
+				//enquanto - condição//
 				while((line = reader.readLine())!=null) {
 					string += line + "\n";
 				}
