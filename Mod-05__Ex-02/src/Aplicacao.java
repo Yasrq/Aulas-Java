@@ -2,7 +2,8 @@
 public class Aplicacao {
 
 	public static void main(String[] args) {
-	
+
+	        //método imprimir//
 		Data d1 = new Data(10, 03, 2000, 0, 30, 10);
 		d1.imprimir(Data.FORMATO_12H);
 		d1.imprimir(Data.FORMATO_24H);
