@@ -9,7 +9,7 @@ public class Cliente {
 
 	}
 
-	@Override
+	@Override //to string//
 	public int hashCode() {
 		return Objects.hash(cpf, nome, numConta);
 	}
