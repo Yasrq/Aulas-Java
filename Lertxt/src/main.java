@@ -13,7 +13,7 @@ public class main {
 				String string = "";
 				
 				while((line = reader.readLine())!=null) {
-					string += line + "\n";
+					string += line + "\n"; //pula uma linha//
 				}
 				
 				System.out.println(string);
