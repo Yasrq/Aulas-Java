@@ -1,9 +1,9 @@
 
 public class Bebida {
-	
+	//Variável privada para outras classes//
 	private String nome;
 	private Boolean aquecer;
-	
+	//get e set das variáveis//
 	public Bebida(String nome, Boolean aquecer) {
 		super();
 		this.nome = nome;
