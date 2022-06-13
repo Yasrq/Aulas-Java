@@ -10,17 +10,17 @@ public class Calculadora {
 	double resulD; 
 		
 	resulS = n1 + n2;
-	System.out.println("O resultado da soma È " + resulS); 
+	System.out.println("O resultado da soma √© " + resulS); 
 	
 	resulSu = n1 - n2;
-	System.out.println("O resultado da subtraÁ„o È" + resulSu);
-	
+	System.out.println("O resultado da subtra√ß√£o √©" + resulSu);
+	//c√°lculo com vari√°veis//
 	
 	resulM = n1 * n2;
-	System.out.println("O resultado da multiplicaÁ„o È " + resulM);
+	System.out.println("O resultado da multiplica√ß√£o √© " + resulM);
 	
 	resulD = n1 / n2;
-	System.out.println("O resultado da soma È " + resulD);
+	System.out.println("O resultado da soma √© " + resulD);
 	
 	
 	
