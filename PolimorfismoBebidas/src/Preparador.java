@@ -4,7 +4,7 @@ public class Preparador {
 	public void prepararBebida(Bebida bebida) {
 		System.out.println("Preparando a bebida " + bebida.getNome());
 		
-		
+		//preparar bebida//
 		bebida.preparar();
 	
 		if(bebida.getAquecer()) {
