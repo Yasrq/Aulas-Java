@@ -1,5 +1,6 @@
 
 public class LeiteQuente extends Bebida{
+//sub classe Bebida herda da super classe Bebida//
 	
 	public LeiteQuente() {
 		
