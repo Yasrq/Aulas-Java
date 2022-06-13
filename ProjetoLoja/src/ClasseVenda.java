@@ -8,12 +8,12 @@ public class ClasseVenda {
 	double total; 
 	double valor;
 	double desconto;  
-	
+	//cálculo// 
 	total = prod1 + prod2; 
 	desconto = total * 0.15;
 	valor = total - desconto; 
 	
-	System.out.println("O valor a pagar � " + valor);
+	System.out.println("O valor a pagar é " + valor);
 	
 	
 		
