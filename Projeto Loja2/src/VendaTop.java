@@ -4,22 +4,22 @@ public class VendaTop {
 	public static void main(String[] args) {
 		
 		
-		
+		//criar vari√°veis//
 		 int jaqueta = 80;
 		 int camiseta = 40; 
 		 int vestido = 50;
-		 int calÁa = 70;
+		 int cal√ßa = 70;
 		 int desconto;
 		 int valor1;
 		 int valor2; 
 		 
 		 
-		 
+		 //c√°lculo//
 		 valor1 = jaqueta + vestido; 
-		 System.out.println("O valor da compra È " + valor1);
+		 System.out.println("O valor da compra √© " + valor1);
 		 
-		 valor2 = calÁa + camiseta; 
-		 System.out.println("O valor da compra È " + valor2);
+		 valor2 = cal√ßa + camiseta; 
+		 System.out.println("O valor da compra √© " + valor2);
 		 
 		 if ()
 		 
