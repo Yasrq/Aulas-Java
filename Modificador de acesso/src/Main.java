@@ -11,7 +11,7 @@ public class Main {
         //System.out.println(conta1.ativo);
         //System.out.println(conta1.numConta);
         //System.out.println(conta1.saldo);
-        
+        //converter valores, de int para double//
         conta1.receber(100.8); 
         conta1.dar(110);
         System.out.println(conta1.saldo()); 
