@@ -15,7 +15,7 @@ public class Sabonete {
 		this.cor = cor;
 	}
 	public Sabonete(String texto) {
-	
+	       //quebrar texto com split//
 		String[] arrayAuxiliar1 = texto.split(",");
 		String[] arrayAuxiliar2 = arrayAuxiliar1[0].split("=");
 		this.cheiro = arrayAuxiliar2[1].trim();
