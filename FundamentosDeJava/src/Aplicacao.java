@@ -16,14 +16,14 @@ public class Aplicacao {
 		double x[] = {3, 5, 7};
 		
 		for(int aux = 0; aux < x.length; aux++) {
-			System.out.println("valor do índice" + aux + " = " + x[aux]);
+			System.out.println("valor do Ã­ndice" + aux + " = " + x[aux]);
 		}
 		String nome[] = {"Gabriel", "Junior", "Lara"};
 		
 		for (int aux1 = 0; aux1 < nome.length; aux1++) {
 			System.out.println(nome[aux1]);
 			if (nome[aux1] == "Junior") {
-				System.out.println("O índice de Junior é = " + aux1);
+				System.out.println("O Ã­ndice de Junior Ã© = " + aux1);
 			}
 		}
 		
@@ -34,15 +34,15 @@ public class Aplicacao {
 		arrayInt[3] = 4;
 		
 		int[] numero = new int[6];
-		Scanner teclado = new Scanner(System.in);
+		Scanner teclado = new Scanner(System.in); //teclado para escrever no console//
 		
 		for (int aux2 = 0; aux2 < numero.length; aux2++) {
-			System.out.println("Digite um número qualquer");
+			System.out.println("Digite um nÃºmero qualquer");
 			numero[aux2] = teclado.nextInt();
 		}
 		
 		for(int aux2 = 0; aux2 < numero.length; aux2++) {
-			System.out.println("Índice " +aux2+ " = " + numero[aux2]);
+			System.out.println("Ãndice " +aux2+ " = " + numero[aux2]);
 		}
 			
 			
